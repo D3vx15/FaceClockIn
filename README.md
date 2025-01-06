@@ -32,6 +32,7 @@ Description of other modules used:
  Purpose: OpenCV is a comprehensive open-source computer vision library. 
 It provides a wide range of functions for image processing, video analysis, 
 and object detection.
+
  Key Commands:
 o cv2.imread(): Reads an image file.
 o cv2.imshow(): Displays an image.
@@ -44,6 +45,7 @@ o cv2.resize(): Resizes an image.
  Purpose: dlib is a C++ toolkit for machine learning, including facial 
 recognition. It offers efficient algorithms for face detection, landmark 
 localization, and face recognition.
+
  Key Commands:
 o dlib.get_frontal_face_detector(): Creates a face detector.
 o dlib.shape_predictor(): Loads a pre-trained shape predictor.
@@ -54,6 +56,7 @@ model.
  Purpose: CMake is a build system generator that can be used to manage the 
 compilation process for C++ projects, including dlib. It simplifies the process 
 of building projects across different platforms.
+
  Key Commands:
 o cmake -B build: Creates a build directory.
 o cmake --build build: Builds the project.
@@ -62,6 +65,7 @@ o cmake --build build: Builds the project.
  Purpose: face_recognition is a Python wrapper for dlib's face recognition 
 functions. It provides a simplified interface for face detection, landmark 
 localization, and face encoding.
+
  Key Commands:
 o face_recognition.load_image_file(): Loads an image file.
 o face_recognition.face_locations(): Detects faces in an image.
