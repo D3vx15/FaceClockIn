@@ -7,7 +7,7 @@ system made using Python and SQL. The system uses a facial recognition module
 (cv2) and a camera to identify individuals and record their attendance information 
 in a database.
 
--DOCUMENTATION
+-DOCUMENTATION:
 To efficiently store data in tabular form, we use MySQL. Python is used to send 
 commands to MySQL in a procedural manner so that the user never needs to 
 manually type in commands.
@@ -72,4 +72,18 @@ o face_recognition.face_locations(): Detects faces in an image.
 o face_recognition.face_encodings(): Encodes faces into numerical 
 representations.
 o face_recognition.compare_faces(): Compares two face encodings
+
+
+-Database:
+The name of the database is “ School” and it has data related to student 
+information.
+
+-Tables:
+There is only one table named “student” of the structure:
+
+![image](https://github.com/user-attachments/assets/e9e29496-1254-4a53-ae18-ae779198b2bc)
+![image](https://github.com/user-attachments/assets/288b24b4-8cbd-491c-83e5-94eb5c842edb)
+![image](https://github.com/user-attachments/assets/68c97a9f-f4fe-4161-b2de-bf40d3d5a789)
+
+
 
