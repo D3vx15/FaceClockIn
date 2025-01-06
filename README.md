@@ -36,11 +36,17 @@ and object detection.
  Key Commands:
 
 o cv2.imread(): Reads an image file.
+
 o cv2.imshow(): Displays an image.
+
 o cv2.waitKey(): Waits for a key press.
+
 o cv2.imwrite(): Writes an image to a file.
+
 o cv2.cvtColor(): Converts an image from one color space to another.
+
 o cv2.resize(): Resizes an image.
+
 ______________
 
 --dlib
