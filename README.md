@@ -1,12 +1,12 @@
 # FaceClockIn
-
+________________________
 -AIM OF THE PROJECT:
 A facial recognition system can streamline attendance tracking in schools, ensuring 
 that students are present and accounted for. This software is a facial attendance 
 system made using Python and SQL. The system uses a facial recognition module 
 (cv2) and a camera to identify individuals and record their attendance information 
 in a database.
-
+________________________
 -DOCUMENTATION:
 To efficiently store data in tabular form, we use MySQL. Python is used to send 
 commands to MySQL in a procedural manner so that the user never needs to 
@@ -27,7 +27,7 @@ database management.
 6. connection.commit() - used to confirm the changes made by the user and that 
 they are reflected in the database.
 Description of other modules used:
-
+______________
 --cv2 (OpenCV)
  Purpose: OpenCV is a comprehensive open-source computer vision library. 
 It provides a wide range of functions for image processing, video analysis, 
@@ -40,6 +40,7 @@ o cv2.waitKey(): Waits for a key press.
 o cv2.imwrite(): Writes an image to a file.
 o cv2.cvtColor(): Converts an image from one color space to another.
 o cv2.resize(): Resizes an image.
+______________
 
 --dlib
  Purpose: dlib is a C++ toolkit for machine learning, including facial 
@@ -53,6 +54,7 @@ o dlib.shape_predictor(): Loads a pre-trained shape predictor.
 
 o dlib.face_recognition_model_v1(): Loads a pre-trained face recognition 
 model.
+______________
 
 --CMake
  Purpose: CMake is a build system generator that can be used to manage the 
@@ -63,6 +65,7 @@ of building projects across different platforms.
 o cmake -B build: Creates a build directory.
 
 o cmake --build build: Builds the project.
+______________
 
 --face_recognition
  Purpose: face_recognition is a Python wrapper for dlib's face recognition 
@@ -78,6 +81,7 @@ o face_recognition.face_encodings(): Encodes faces into numerical
 representations.
 
 o face_recognition.compare_faces(): Compares two face encodings
+______________
 
 
 -Database:
