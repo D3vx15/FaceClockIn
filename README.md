@@ -48,7 +48,9 @@ localization, and face recognition.
 
  Key Commands:
 o dlib.get_frontal_face_detector(): Creates a face detector.
+
 o dlib.shape_predictor(): Loads a pre-trained shape predictor.
+
 o dlib.face_recognition_model_v1(): Loads a pre-trained face recognition 
 model.
 
@@ -59,6 +61,7 @@ of building projects across different platforms.
 
  Key Commands:
 o cmake -B build: Creates a build directory.
+
 o cmake --build build: Builds the project.
 
 --face_recognition
@@ -68,9 +71,12 @@ localization, and face encoding.
 
  Key Commands:
 o face_recognition.load_image_file(): Loads an image file.
+
 o face_recognition.face_locations(): Detects faces in an image.
+
 o face_recognition.face_encodings(): Encodes faces into numerical 
 representations.
+
 o face_recognition.compare_faces(): Compares two face encodings
 
 
