@@ -1,0 +1,10 @@
+opencv-python
+mysql-connector-python
+dlib
+face_recognition
+
+-Explanation:
+opencv-python: Remains essential for core computer vision tasks.
+mysql-connector-python: Still required for database interaction.
+dlib: Provides facial landmark detection and other useful machine learning tools.
+face_recognition: Simplifies facial recognition tasks with pre-trained models.
